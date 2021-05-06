@@ -1,0 +1,145 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.hud {
+  padding-left: 17.2%; /* (18.2% Right Side of Map) | (82.0% Right Side of Screen) | (2.7% Above Map)  */
+  padding-top: 45.5%; /* (47% 1.85% Default-Fix for all 16:9 resolutions) | (21.0% Above Map) */
+}
+
+.box {
+  background: #0e0e0e;
+  height: 190px;
+  width: 210px;
+  border-radius: 10px;
+}
+
+.outline {
+  height: 10px;
+  background-color: #00a3ff;
+  bottom: 0;
+  width: 210px;
+}
+
+.food progress{
+  color: #b5b5b5;
+  height: 7px;
+  background: crimson;
+}
+
+.food progress::-webkit-progress-value {
+  background: #b5b5b5;
+}
+
+.food progress::-moz-progress-bar {
+  background: #b5b5b5;
+}
+
+.food progress::-webkit-progress-value {
+  background: #fbd225;
+}
+
+.food progress::-webkit-progress-bar {
+  background: #b5b5b5;
+}
+
+.armor progress{
+  color: #b5b5b5;
+  height: 7px;
+  background: crimson;
+}
+
+.armor progress::-webkit-progress-value {
+  background: #b5b5b5;
+}
+
+.armor progress::-moz-progress-bar {
+  background: #b5b5b5;
+}
+
+.armor progress::-webkit-progress-value {
+  background: #00BE7A;
+}
+
+.armor progress::-webkit-progress-bar {
+  background: #b5b5b5;
+}
+
+.hudas {
+  padding-top: 5px;
+  padding-left: 1vh;
+}
+.water i{
+  color: #2298ff;
+}
+
+.food {
+  padding-top: 2vh;
+}
+
+.water progress{
+  color: #b5b5b5;
+  height: 7px;
+  background: crimson;
+}
+
+.water progress::-webkit-progress-value {
+  background: #b5b5b5;
+}
+
+.water progress::-moz-progress-bar {
+  background: #b5b5b5;
+}
+
+.water progress::-webkit-progress-value {
+  background: #2298ff;
+}
+
+.water progress::-webkit-progress-bar {
+  background: #b5b5b5;
+}
+
+.hearth progress{
+  color: #b5b5b5;
+  height: 7px;
+  background: crimson;
+}
+
+.hearth progress::-webkit-progress-value {
+  background: #b5b5b5;
+}
+
+.hearth progress::-moz-progress-bar {
+  background: #b5b5b5;
+}
+
+.hearth progress::-webkit-progress-value {
+  background: red;
+}
+
+.hearth progress::-webkit-progress-bar {
+  background: #b5b5b5;
+}
+
+.water {
+  padding-top: 2vh;
+}
+.armor {
+  padding-top: 2vh;
+}
+.hearth {
+  padding-top: 2vh;
+}
+
+.food i{
+  color: #fbd225;
+}
+
+.hearth i{
+  color: #ff0000;
+}
+
+.armor i{
+  color: #00BE7A;
+}
