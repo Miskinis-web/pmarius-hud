@@ -1,4 +1,4 @@
-# pmarius-hud
+# marius-hud
 
 Simple fivem hud.
 
